@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*::before,*::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active {outline: none;}
+a:focus,a:active {outline: none;}
+
+nav,footer,header,aside {display: block;}
+
+html,body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea {font-family: inherit;}
+
+input::-ms-clear {display: none;}
+button {cursor: pointer;}
+button::-moz-focus-inner {padding: 0; border: 0;}
+a,a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+ul li {list-style: none}
+img {vertical-align: top}
+
+h1,h2,h3,h4,h5,h6 {font-size: inherit; font-weight: 400;}
+
+
+body{
+    background: #222222 url("../img/BMSBackground10.jpg") center 110px/1190px auto no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+
+.title {
+    margin: 200px 0 28px 0;
+    text-align: center;
+
+    color: #ededed;
+    font-size: 14px;
+    line-height: 100%;
+    padding: 0;
+    opacity: 0.6;
+    letter-spacing: 3px;
+}
+
+.title-description {
+    margin: 0 auto 100px auto;
+    text-align: center;
+    height: 84px;
+    width: 762px;
+
+    font-family:'Times New Roman', Times, serif;
+    font-size: 36px;
+    line-height: 115%;
+    color: #ffffff;
+}
+
+.image {
+    height: 500px;
+    margin: 0 auto 90px auto;
+    background: url("../img/logo-black-mesa.png") 50%/contain no-repeat;
+}
+
+.description {
+    width: 750px;
+    margin: 0 auto 15px auto;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    line-height: 40px;
+    color: #e4f6ff;
+    opacity: 0.8;
+}
+
+.list {
+    width: 750px;
+    margin: 0 auto 59px auto;
+}
+
+.list li {
+    background: url("../img/li.svg") 0 11px no-repeat;
+    padding: 0 0 0 30px;
+
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.li-1 {
+    text-shadow: 0 1px rgb(255, 115, 0, 1);
+    color: #e4f6ff;
+}
+
+.li-2 {
+    color: #e4f6ff;
+    font-style: italic;
+}
+
+.li-3 {
+    color: #e4f6ff;
+}
+
+.li-4 {
+    color: rgba(87, 107, 118, 0.68);
+    text-decoration: line-through;
+}
+
+.button-block {
+    height: 44px;
+    width: 750px;
+    margin: 0 auto 137px auto;
+}
+
+.button {
+    display: block;
+    width: 307px;
+    height: 100%;
+    padding: 0 0 0 29px;
+
+    background: rgb(255, 115, 0) url("../img/right-arrow.png") 259px 14px/21px 16px no-repeat;
+    border-radius: 22px;
+    font-size: 14px;
+    line-height: 44px;
+    letter-spacing: 3px;
+    color: #ffffff;
+    box-shadow: 0 6px 40px rgb(255, 115, 0, 0.4);
+}
